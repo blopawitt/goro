@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goró</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="bg-dark text-white text-center py-3">
+    <h1>Goró</h1>
+  </header>
+  <main class="container my-4 mx-auto" style="max-width: 600px;">
+    <form id="filter-form" class="mb-4">
+      <div class="form-row align-items-end">
+        <div class="form-group col-md-5">
+          <label for="flavor">Sabor</label>
+          <select id="flavor" class="form-control">
+            <option value="">Escolha...</option>
+            <option value="Amargo">Amargo</option>
+            <option value="Cítrico">Cítrico</option>
+            <option value="Doce">Doce</option>
+          </select>
+        </div>
+        <div class="form-group col-md-5">
+          <label for="alcoholLevel">Nível Alcoólico</label>
+          <select id="alcoholLevel" class="form-control">
+            <option value="">Escolha...</option>
+            <option value="Forte">Forte</option>
+            <option value="Médio">Médio</option>
+            <option value="Fraco">Fraco</option>
+          </select>
+        </div>
+        <div class="form-group col-md-1 text-right">
+          <button type="submit" class="btn btn-primary">Filtrar</button>
+        </div>
+      </div>
+    </form>
+    <section id="drinks-list" class="row">
+      <!-- Lista de drinks será carregada aqui -->
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

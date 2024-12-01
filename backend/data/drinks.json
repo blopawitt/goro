@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Mojito",
+    "ingredients": [
+      "Rum",
+      "Mint",
+      "Sugar",
+      "Lime",
+      "Soda"
+    ],
+    "flavor": "Cítrico",
+    "alcoholLevel": "Médio",
+    "image": "mojito.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Margarita",
+    "ingredients": [
+      "Tequila",
+      "Triple sec",
+      "Lime juice",
+      "Salt"
+    ],
+    "flavor": "Cítrico",
+    "alcoholLevel": "Forte",
+    "image": "margarita.jpg"
+  }
+]

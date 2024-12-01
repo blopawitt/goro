@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #f4f4f4;
+  background-image: url('images/pexels-photo-274192.jpeg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+s main {
+  padding: 1rem;
+  margin-top: 1rem;
+  /* Ajuste a margem superior conforme necessário */
+}
+
+#drinks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#filter-form {
+  margin-top: 2rem;
+  /* Ajuste a margem superior conforme necessário */
+}
+
+.drink {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  width: calc(33.333% - 2rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
